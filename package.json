@@ -1,0 +1,58 @@
+{
+  "name": "react-vite-template",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode production",
+    "build:qa": "vite build --mode qa",
+    "build:uat": "vite build --mode uat",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "prettify": "prettier --write \"src/**/*.{js,jsx}\"",
+    "preview": "vite preview",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@reduxjs/toolkit": "^1.9.5",
+    "amazon-cognito-identity-js": "^6.3.1",
+    "antd": "^5.7.0",
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "formik": "^2.4.2",
+    "js-cookie": "^3.0.5",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-number-format": "^5.2.2",
+    "react-promise-tracker": "^2.1.1",
+    "react-redux": "^8.1.1",
+    "react-router-dom": "^6.14.2",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.44.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "history": "^5.3.0",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.0",
+    "redux-logger": "^3.0.6",
+    "sass": "^1.64.0",
+    "vite": "^4.4.0",
+    "vite-plugin-eslint": "^1.8.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
