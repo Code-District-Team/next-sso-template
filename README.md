@@ -19,8 +19,8 @@ This is a starter template for building React applications using Vite. Vite is a
 To get started, clone this repository and install dependencies:
 
 ```
-git clone https://usama_codedistrict@bitbucket.org/codedistrict/react-vite-template.git
-cd react-vite-template
+git clone git@bitbucket.org:codedistrict/sso_template.git
+cd sso_template
 yarn install
 OR
 pnpm install
